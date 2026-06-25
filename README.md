@@ -1,16 +1,20 @@
 # PHP-Library  
   
-seeding:
+## Prerequisites
+php and pdo sqlite drivers must be installed
+  
+  
+### Seeding the DB:
 ```bash
 php ./utils/seed.php
 ```
   
-run:
+### run the dev server:
 ```bash
 php -S localhost:8001
 ```
   
-test:
+### get php-info:
 ```bash
 php ./utils/test.php
 ```
