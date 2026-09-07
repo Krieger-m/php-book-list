@@ -2,23 +2,33 @@ ____
 # PHP-Book-List  
   
 ## Prerequisites
-php and pdo sqlite drivers must be installed
+Ensure you have PHP and the SQLite PDO extension installed:
+- PHP (7.4 or higher recommended)
+- PDO SQLite Extension (pdo_sqlite)
+
+## Quick Start
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Krieger-m/php-book-list.git
+cd ./php-book-list
+```
   
-----
-  
-#### Seeding the DB:
+### 2. Seed the database
 ```bash
 php ./utils/seed.php
 ```
   
 
-#### Run the dev server:
+### 3. Run the dev server:
 ```bash
 php -S localhost:8001
 ```
   
 
-#### Get php-info:
+### Utilities
+- Check PHP Environment Info:  
+
 ```bash
 php ./utils/test.php
 ```
